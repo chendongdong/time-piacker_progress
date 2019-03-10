@@ -1,29 +1,15 @@
-# progress-slide
+# 组件
 
-## Project setup
+## 进度条
 ```
-npm install
+代码：https://github.com/chendongdong/time-piacker_progress/blob/master/src/components/Progress.vue
 ```
+https://github.com/chendongdong/time-piacker_progress/blob/master/src/assets/ic_progress.png
 
-### Compiles and hot-reloads for development
+### 选择时间组件，无限循环
 ```
-npm run serve
+代码：https://github.com/chendongdong/time-piacker_progress/blob/master/src/components/TimePick.vue
 ```
+https://github.com/chendongdong/time-piacker_progress/blob/master/src/assets/ic_time_picker.png
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
