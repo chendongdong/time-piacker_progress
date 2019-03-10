@@ -18,6 +18,7 @@
 }
 #nav {
   padding: 30px;
+  font-size: 1.8rem;
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -26,10 +27,7 @@
     }
   }
 }
-html{
-  font-size: 10px;
-}
-ul, li{
+* {
   padding: 0;
   margin: 0;
 }

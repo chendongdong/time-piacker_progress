@@ -16,7 +16,7 @@
       <div class="container-root-btn">
         <div class="root-btn-cancel root-btn-press" @click="$emit('cancel')">取消</div>
         <div class="root-btn-midBox"></div>
-        <div class="root-btn-submit root-btn-press" @click="$emit('submit')">确定</div>
+        <div class="root-btn-submit root-btn-press" @click="submit">确定</div>
       </div>
     </div>
   </div>
@@ -111,6 +111,7 @@
           }
       },
       submit() {
+        console.log('selectItem=', this.selectItem)
         this.$emit('submit', this.selectItem)
       },
       touchStart(e) {
