@@ -5,21 +5,17 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import VProgress from '@/components/Progress.vue'
+  // @ is an alias to /src
+  import VProgress from '@/components/Progress.vue'
 
-export default {
-  name: 'home',
-  components: {
-    VProgress
-  },
-  data() {
-      return {
-
-      }
-  },
-  methods: {
-
+  export default {
+    name: 'home',
+    components: {
+      VProgress
+    },
+    data() {
+      return {}
+    },
+    methods: {}
   }
-}
 </script>
